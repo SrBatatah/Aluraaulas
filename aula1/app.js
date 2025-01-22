@@ -1,6 +1,5 @@
+let numero = 0;
 let numeromaximo = parseInt(Math.random() * 200 + 1);
-
-let numero = 0
 while (numero < 200) {
     let numadc = parseInt(prompt(`Digite um novo número ate chegar em ${numeromaximo}: \no numero atual é ${numero}`));
     if (!isNaN(numadc)) {
